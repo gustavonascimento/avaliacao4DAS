@@ -1,5 +1,8 @@
 # RMI - Chat App
 
+The code was developed by students originally in this repository:
+https://github.com/freemanpivo/rmi_chat
+
 ## 1. Dependencies
 
 *   Java
