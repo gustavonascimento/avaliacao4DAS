@@ -1,0 +1,34 @@
+Framework de componentes: 
+a)Definição do elemento 
+	O framework de componentes define como os padrões e convenções do modelo de componentes
+	serão implantados, como por exemplo implementar serviços para troca de mensagens,
+	passagem de dados e a ligação entre componentes, além de administrar as regras impostas
+	por este modelo. 
+b)Função na abordagem DBC
+	O framework de componentes é responsável pela infraestrutura de suporte a comunicação e
+	ligação dos componentes de serviços de coordenação. 
+
+Modelo de componentes: 
+a)Definição do elemento
+	O modelo de componentes pode ser definido como um elemento da arquitetura do sistema,
+	onde os padrões e convenções estão definidas, estabelecendo assim como os componentes 
+	do sistema interagem entre si. 
+b)Função na abordagem DBC
+	O modelo de componentes é responsável por definir os tipos de componentes, as formas de
+	interação entre estes componentes e estabelecer os recursos necessários para a 
+	utilização dos mesmos.
+
+Componente de software:
+a)Definição do elemento
+	Componentes de software podem ser definidos como partes de um sistema de software que 
+	podem ser identificavéis e reusáveis, podendo ser artefatos autocontidos, fáceis de 
+	serem identificados e possuem uma descrição de suas funções de maneira clara e concisa.
+b)Função na abordagem DBC
+	Permitir aos usuários que ao ter conhecimento do que o componente realiza, desenvolva
+	suas tarefas, preocupando-se com o papel do componente na solução completa, e não 
+	COMO os serviços providos pelo componente são implementados/realizados.
+
+	Seguindo as caractéristicas de um componente, como, independência, permite que tal 
+	componente seja utilizado em qualquer contexto,	pois não há vínculo deste com o 
+	contexto, podendo garantir o reuso de código, artefatos ou interfaces. 
+	
