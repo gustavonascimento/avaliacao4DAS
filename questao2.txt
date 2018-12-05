@@ -1,0 +1,42 @@
+﻿PRIMEIRA PARTE: DEFININDO CONCEITOS.
+a) O Stub é a camada mais próxima ao cliente, em uma analogia, eles funcionam como um proxy
+ entre a aplicação cliente e o objeto remoto, recebendo os parâmetros dos métodos exportados
+ pelo objeto remoto e enviando para o servidor. 
+
+b) O Skeleton por sua vez recebe os parâmetros enviados pelo Stub e envia as chamadas para 
+ o objeto remoto.
+
+c) O registro é utilizado para que o servidor tenha a possibilidade de tornar os seus
+ objetos acessíveis remotamente, para isso ele registra esses objetos no serviço de
+ registro conhecido pelos clientes, sendo assim, o servidor é capaz de disponibilizar um
+ serviço remoto para alguma aplicação cliente.
+
+d) A serialização é o processo que o Java utiliza para a transmissão dos dados de objetos,
+ os armazenando e depois os recuperando. Essa transmissão é utilizada com o intuito de
+ poupar a utilização da memória, diminuindo o tamanho dos objetos em sua transmissão. 
+
+A serialização marshalling, é o processo de transmitir os objetos internos para uma 
+representação externa.
+
+A serialização unnmarshalling, é o processo inverso do marshalling, convertendo os dados 
+de representação externa para uma representação interna, reconstruindo os objetos. 
+
+--------------------------------------
+
+SEGUNDA PARTE: RESPONDENDO À QUESTÂO.
+Definidos todos os conceitos que definem as partes relativas ao RMI, e ligando estes
+conceitos a dissertação de Spagnoli e Becker, especificamente à figura de relação entre 
+componente, modelo e framework, estabelece-se os relacionamentos:
+
+STUB: Framework de componentes, pois sua função é ligar e estabelecer a comunicação entre
+CLIENT e SERVER.
+
+CLIENT/SERVER: São os componentes, porque estão em conformidade com as definições do
+modelo de componentes.
+
+SKELETON: É o modelo de componentes, porque identifica os tipos de componentes bem como
+sua forma de interação (servidor - retorna uma vlor de método, enquanto o cliente 
+estabelece parâmetros para se obter o retorno de um método do servidor).
+
+SERIALIZATION: É caracterizada pela utilização dos componentes, pois é a forma de
+comunicação (marshalling/unnmarshalling) entre CLIENT e SERVER.
